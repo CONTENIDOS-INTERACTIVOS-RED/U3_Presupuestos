@@ -288,8 +288,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Correcto! El estado de flujo de efectivo es el documento que muestra las entradas y salidas de efectivo.',
-          mensaje_incorrecto: 'Incorrecto. El estado de flujo de efectivo es el documento que registra los movimientos de efectivo.',
+          mensaje_correcto:
+            '¡Correcto! El estado de flujo de efectivo es el documento que muestra las entradas y salidas de efectivo.',
+          mensaje_incorrecto:
+            'Incorrecto. El estado de flujo de efectivo es el documento que registra los movimientos de efectivo.',
         },
         {
           id: 2,
@@ -318,8 +320,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Correcto! La liquidez mide la capacidad de convertir activos en efectivo para cumplir obligaciones a corto plazo.',
-          mensaje_incorrecto: 'Incorrecto. La liquidez es el concepto que mide la capacidad de pago a corto plazo.',
+          mensaje_correcto:
+            '¡Correcto! La liquidez mide la capacidad de convertir activos en efectivo para cumplir obligaciones a corto plazo.',
+          mensaje_incorrecto:
+            'Incorrecto. La liquidez es el concepto que mide la capacidad de pago a corto plazo.',
         },
         {
           id: 3,
@@ -348,8 +352,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Correcto! El ingreso operacional representa los recursos esperados por ventas de productos o servicios.',
-          mensaje_incorrecto: 'Incorrecto. Los ingresos operacionales son los recursos que se esperan de las ventas.',
+          mensaje_correcto:
+            '¡Correcto! El ingreso operacional representa los recursos esperados por ventas de productos o servicios.',
+          mensaje_incorrecto:
+            'Incorrecto. Los ingresos operacionales son los recursos que se esperan de las ventas.',
         },
         {
           id: 4,
@@ -378,8 +384,10 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Correcto! El margen de utilidad es un indicador clave para medir la rentabilidad empresarial.',
-          mensaje_incorrecto: 'Incorrecto. El margen de utilidad es el indicador que mide la rentabilidad.',
+          mensaje_correcto:
+            '¡Correcto! El margen de utilidad es un indicador clave para medir la rentabilidad empresarial.',
+          mensaje_incorrecto:
+            'Incorrecto. El margen de utilidad es el indicador que mide la rentabilidad.',
         },
         {
           id: 5,
@@ -408,11 +416,14 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Correcto! El método de porcentaje de ventas asume que ciertos elementos varían proporcionalmente con las ventas.',
-          mensaje_incorrecto: 'Incorrecto. El método de porcentaje de ventas es la técnica que asume esta variación proporcional.',
+          mensaje_correcto:
+            '¡Correcto! El método de porcentaje de ventas asume que ciertos elementos varían proporcionalmente con las ventas.',
+          mensaje_incorrecto:
+            'Incorrecto. El método de porcentaje de ventas es la técnica que asume esta variación proporcional.',
         },
       ],
-      mensaje_final_aprobado: '¡Felicitaciones! Has demostrado un buen entendimiento del análisis y proyección financiera.',
+      mensaje_final_aprobado:
+        '¡Felicitaciones! Has demostrado un buen entendimiento del análisis y proyección financiera.',
       mensaje_final_reprobado:
         'Te recomendamos repasar los conceptos de análisis financiero y proyección financiera antes de intentarlo nuevamente.',
     },
