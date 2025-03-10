@@ -255,7 +255,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Sistemas numéricos y álgebra de Boole',
+      tema: 'Análisis y proyección financiera',
       titulo: 'Ponte a prueba',
       introduccion:
         'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -264,166 +264,157 @@ export default {
         {
           id: 1,
           texto:
-            'El estado civil debe acreditarse mediante ______ oficiales, como el acta de nacimiento o matrimonio.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Cuál de los siguientes documentos financieros muestra las entradas y salidas de efectivo de una empresa en un periodo determinado?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Informes.',
+              texto: 'Estado de resultados',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Documentos.',
-              esCorrecta: true,
+              texto: 'Balance general',
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Contratos.',
-              esCorrecta: false,
+              texto: 'Estado de flujo de efectivo',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Declaraciones juradas.',
+              texto: 'Estado de cambios en el patrimonio',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Correcto! El estado de flujo de efectivo es el documento que muestra las entradas y salidas de efectivo.',
+          mensaje_incorrecto: 'Incorrecto. El estado de flujo de efectivo es el documento que registra los movimientos de efectivo.',
         },
         {
           id: 2,
           texto:
-            'El fallecimiento de una persona natural causa el ______ de su personalidad jurídica.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Qué concepto mide la capacidad de una empresa para cumplir con sus obligaciones a corto plazo mediante la conversión de sus activos en efectivo?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Inicio.',
+              texto: 'Rentabilidad',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Mantenimiento.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Cese.',
+              texto: 'Liquidez',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Endeudamiento',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: 'Incremento.',
+              texto: 'Patrimonio neto',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Correcto! La liquidez mide la capacidad de convertir activos en efectivo para cumplir obligaciones a corto plazo.',
+          mensaje_incorrecto: 'Incorrecto. La liquidez es el concepto que mide la capacidad de pago a corto plazo.',
         },
         {
           id: 3,
           texto:
-            'Una persona con capacidad de obrar plena puede ______ sus derechos sin restricciones.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'En un presupuesto, ¿qué elemento representa los recursos que se esperan obtener de la venta de productos o servicios?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Transferir.',
-              esCorrecta: false,
+              texto: 'Ingreso operacional',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Ceder.',
+              texto: 'Pasivo',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Ejercer.',
-              esCorrecta: true,
+              texto: 'Costo de ventas',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Renunciar.',
+              texto: 'Activo corriente',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Correcto! El ingreso operacional representa los recursos esperados por ventas de productos o servicios.',
+          mensaje_incorrecto: 'Incorrecto. Los ingresos operacionales son los recursos que se esperan de las ventas.',
         },
         {
           id: 4,
           texto:
-            'Una empresa de consultoría en Derecho revisa los atributos de personalidad de las personas jurídicas en comparación con las naturales. Al estudiar los derechos, encuentra uno aplica a los dos tipos de persona. ¿Cuál de los siguientes es compartido tanto por personas naturales como jurídicas?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Cuál de los siguientes elementos es un indicador clave de la rentabilidad de una empresa?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'La nacionalidad.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'La posibilidad de poseer bienes.',
+              texto: 'Pasivo corriente',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Margen de utilidad',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'La capacidad de obrar.',
+              texto: 'Estado de flujo de efectivo',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'La responsabilidad limitada.',
+              texto: 'Costo de capital',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Correcto! El margen de utilidad es un indicador clave para medir la rentabilidad empresarial.',
+          mensaje_incorrecto: 'Incorrecto. El margen de utilidad es el indicador que mide la rentabilidad.',
         },
         {
           id: 5,
           texto:
-            'Fernando está revisando los documentos de su empresa puesto que junto con sus socios se disponen a cambiar de domicilio. Ante la situación se pregunta si habrán repercusiones e los derechos y obligaciones que ostenta su organización. ¿El cambio de domicilio afecta la personalidad jurídica de una persona jurídica en Colombia?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Qué técnica de proyección financiera asume que ciertos elementos varían proporcionalmente con las ventas?',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'No, el cambio de domicilio no afecta la personalidad jurídica, pero debe ser actualizado ante las autoridades.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto:
-                'Sí, el cambio de domicilio implica la creación de una nueva persona jurídica.',
+              texto: 'Método de análisis de tendencias',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Método de porcentaje de ventas',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto:
-                'El domicilio solo puede ser cambiado si lo aprueba una autoridad judicial.',
+              texto: 'Modelos financieros avanzados',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Las personas jurídicas no pueden cambiar de domicilio sin disolverse.',
+              texto: 'Análisis de sensibilidad',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Correcto! El método de porcentaje de ventas asume que ciertos elementos varían proporcionalmente con las ventas.',
+          mensaje_incorrecto: 'Incorrecto. El método de porcentaje de ventas es la técnica que asume esta variación proporcional.',
         },
       ],
-      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_aprobado: '¡Felicitaciones! Has demostrado un buen entendimiento del análisis y proyección financiera.',
       mensaje_final_reprobado:
-        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+        'Te recomendamos repasar los conceptos de análisis financiero y proyección financiera antes de intentarlo nuevamente.',
     },
   }),
   mounted() {

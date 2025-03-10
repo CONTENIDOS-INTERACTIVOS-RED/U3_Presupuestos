@@ -18,9 +18,9 @@
       .col-12.col-xl-6.me-xl-auto.my-auto
         p.mb-4.text-white En el siguiente podcast se explica la importancia de la gestión de ingresos y gastos para la estabilidad financiera.
         TarjetaAudio.color-primario.bg-white.mb-3(
-          texto='Texto descriptivo del audio'
+          texto='Gestión de ingresos y gastos: clave para la estabilidad financiera'
           tiempo
-          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          :audio="require('../../assets/curso/unidad/podcast1.mp3')"
           @audio-hover='mostrarIndicadorTarjetaAudio = false'
         )
 
