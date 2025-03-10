@@ -2,9 +2,9 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 Esta unidad sobre el presupuesto de administración y tesorería destaca su relevancia como herramienta esencial para la toma de decisiones financieras y operativas en las organizaciones. Se aborda la planificación, ejecución y control del presupuesto, permitiendo a los estudiantes desarrollar competencias clave en la gestión eficiente de recursos. 
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>

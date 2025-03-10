@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'Presupuesto de administración y tesorería'

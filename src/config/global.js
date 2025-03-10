@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    numeroUnidad: '3',
+    tituloUnidad: 'Presupuesto de administración y tesorería',
   },
   menuPrincipal: {
     menu: [
@@ -31,44 +31,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Fundamentos del presupuesto de administración y tesorería',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: 'Conceptos básicos del presupuesto',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo: 'Importancia del presupuesto en la toma de decisiones',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Slider',
+            titulo: 'Tipologías de presupuestos y su aplicación',
             hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -76,38 +58,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Gestión de ingresos y gastos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Ingresos y gastos operacionales',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo: 'Ingresos y gastos no operacionales',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Audios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -115,20 +79,26 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Análisis y proyección financiera',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Carrusel',
+            titulo: 'Análisis del flujo de caja',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Tablas',
+            titulo: 'Estado de flujo de efectivo y su interpretación',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Métodos de pronóstico de ventas y tendencias del mercado',
+            hash: 't_3_3',
           },
         ],
       },
@@ -170,109 +140,171 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Buitrago Ibáñez, J. V. (2021). Presupuestos en Excel: (1 ed.). Editorial UPTC.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/219237?page=1',
+    },
+    {
+      referencia:
+        'Piedra Aguilera, M. A. & Cubero Abril, T. (2024). Presupuestos. Un enfoque práctico: (1 ed.). Universidad del Azuay.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/278951?page=2',
+    },
+    {
+      referencia:
+        'Pacheco Coello, C. E. (2020). Presupuestos un enfoque gerencial: ( ed.). Instituto Mexicano de Contadores Públicos.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/151225',
+    },
+    {
+      referencia:
+        'Vásquez Rojas, F. A. (2021). Costos y Presupuestos para financieros junior: ( ed.). Grupo Editorial Nueva Legislación SAS.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/160288?page=1',
+    },
+    {
+      referencia:
+        'Checa Hinojo, E. J. (2024). Elaboración del presupuesto editorial. ARGN0109: (1 ed.). IC Editorial.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/274320?page=1',
+    },
+    {
+      referencia:
+        'Moreno Castro, T. F. (2023). Plan de ventas: productos, pronósticos y presupuestos: (1 ed.). RIL editores.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/268333?page=1',
+    },
+    {
+      referencia:
+        'Antón Pérez, J. J. & Garijo de Miguel, S. (2024). Empresa y administración: (1 ed.). Macmillan Iberia, S.A.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/267631',
+    },
+    {
+      referencia:
+        'Gutiérrez Aragón, Ó. (2015). Fundamentos de administración de empresas: ( ed.). Difusora Larousse - Ediciones Pirámide.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/49039',
+    },
+    {
+      referencia:
+        'Reza Trosino, J. C. (2019). El gerente efectivo: los fundamentos de la administración, el trabajo en equipo y el liderazgo: (1 ed.). Universidad Nacional Autónoma de México (UNAM).',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/228831',
+    },
+    {
+      referencia:
+        'Salgado Benítez, J. Guerrero López, L. & Salgado Hernández, N. (2016). Fundamentos de Administración: ( ed.). Grupo Editorial Éxodo.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/130328',
+    },
+    {
+      referencia:
+        'Cárdenas, R. A., & Nápoles, R. A. (2009). Presupuestos: Teoría y práctica (2.ª ed.).',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://rashellrivas.files.wordpress.com/2017/04/cardenas-y-napoles-raul-andres-presupuestos-teoria-y-practica-2ed-1-1.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Guajardo, M., & Andrade de Guajardo, S. (2018). Análisis financiero y económico para la toma de decisiones. TecnoHumanismo. Revista Científica, 2(3), 125-135.',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/8356016.pdf',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Redalyc. (2001.). Proyección de estados financieros, utilizando información pública disponible.',
+      link: 'https://www.redalyc.org/pdf/299/29901009.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Activo',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Recursos controlados por una entidad, obtenidos con el fin de generar beneficios futuros.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Análisis financiero',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Evaluación de la información contable para conocer la situación y el desempeño económico de una organización.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Balance general',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Informe financiero que presenta los activos, pasivos y el patrimonio de una empresa en un momento determinado.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Capital de trabajo',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Diferencia entre los activos corrientes y los pasivos corrientes; mide la liquidez operativa.',
     },
     {
-      termino: 'Moda',
+      termino: 'Costo de ventas',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Gastos directos asociados a la producción de los bienes o servicios vendidos por una empresa.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Dividendos',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Parte de las ganancias de una empresa que se distribuye entre sus accionistas.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Endeudamiento',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Obligaciones financieras que una entidad debe cumplir, derivadas de préstamos u otras fuentes de financiamiento.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Estado de flujo de efectivo',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Documento que muestra las entradas y salidas de efectivo de una empresa en un periodo dado.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Estado de resultados',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Informe financiero que muestra los ingresos, costos y gastos, así como la utilidad o pérdida neta.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Financiamiento',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Obtención de recursos financieros para llevar a cabo actividades operativas o de inversión.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Gasto operacional',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Costos incurridos en el día a día de las operaciones de la empresa, como salarios, alquileres y servicios.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Ingreso operacional',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Ingresos obtenidos de la actividad principal de la empresa, como la venta de bienes o servicios.',
+    },
+    {
+      termino: 'Liquidez',
+      significado:
+        'Capacidad de una empresa para convertir sus activos en efectivo y cumplir con sus obligaciones a corto plazo.',
+    },
+    {
+      termino: 'Margen de utilidad',
+      significado:
+        'Relación entre la utilidad neta y las ventas totales; mide la rentabilidad.',
+    },
+    {
+      termino: 'Pasivo',
+      significado:
+        'Obligaciones financieras que una empresa tiene con terceros, como deudas o compromisos contractuales.',
+    },
+    {
+      termino: 'Patrimonio',
+      significado:
+        'Diferencia entre los activos y los pasivos de una empresa; representa la participación de los propietarios.',
+    },
+    {
+      termino: 'Presupuesto',
+      significado:
+        'Plan financiero detallado que proyecta los ingresos y gastos futuros de una empresa.',
+    },
+    {
+      termino: 'Proyección financiera',
+      significado:
+        'Estimación del desempeño futuro de una empresa en términos financieros.',
+    },
+    {
+      termino: 'Rentabilidad',
+      significado:
+        'Capacidad de una empresa para generar beneficios en relación con los recursos utilizados.',
+    },
+    {
+      termino: 'Utilidad neta',
+      significado:
+        'Resultado final de los ingresos menos los costos y gastos totales, incluyendo impuestos y otros cargos.',
     },
   ],
   complementario: [
