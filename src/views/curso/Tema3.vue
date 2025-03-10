@@ -229,6 +229,14 @@
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>Proyección de estados financieros
         .d-none.d-xl-block.col-xl-4.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
           img.h-100(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
+    
+    
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+    
+    
     .bg-full-width.border-top-9-azul
       .px-5.pt-5.pb-0
         h2 Material complementario
